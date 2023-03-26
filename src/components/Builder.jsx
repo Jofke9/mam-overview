@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Units from './Units.jsx';
+import BuilderUnits from './BuilderUnits.jsx';
 import Unit from './Unit.jsx'
 
 export default function Builder() {
@@ -30,31 +30,37 @@ export default function Builder() {
 
     const baseUnits = [
         {
-            type: "melee",
+            type: "Melee",
             units: [
                 {
                     name: "Beholder",
                     img: "../images/units/BaseUnits/beholder.png",
-                    cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    cost: { gold: 44, food: 9, metal: 0, mana: 5, oil: 0, crystal: 0, subdolak: 0 },
                     upgradeCosts: [
                         { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
-                    ]
+                    ],
+                    researchCost: { gold: 12, food: 6, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    needsCheck: true
                 },
                 {
                     name: "Rexxar",
                     img: "../images/units/BaseUnits/rexxar.png",
-                    cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    cost: { gold: 57, food: 16, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
                     upgradeCosts: [
-                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
-                    ]
+                        { gold: 118, food: 30, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
+                    ],
+                    researchCost: { gold: 24, food: 14, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    needsCheck: false
                 },
                 {
                     name: "Angel",
                     img: "../images/units/BaseUnits/angel.png",
-                    cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    cost: { gold: 100, food: 18, metal: 0, mana: 20, oil: 0, crystal: 0, subdolak: 0 },
                     upgradeCosts: [
                         { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
-                    ]
+                    ],
+                    researchCost: { gold: 25, food: 12, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    needsCheck: true
                 },
                 {
                     name: "Anubis",
@@ -62,66 +68,80 @@ export default function Builder() {
                     cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
                     upgradeCosts: [
                         { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
-                    ]
+                    ],
+                    researchCost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    needsCheck: true
                 },
             ],
         },
         {
-            type: "ranged",
+            type: "Ranged",
             units: [
                 {
                     name: "Marine",
                     img: "../images/units/BaseUnits/marine.png",
-                    cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    cost: { gold: 27, food: 0, metal: 6, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
                     upgradeCosts: [
-                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
-                    ]
+                        { gold: 48, food: 0, metal: 12, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
+                    ],
+                    researchCost: { gold: 16, food: 0, metal: 5, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    needsCheck: false
                 },
                 {
                     name: "Stalker",
                     img: "../images/units/BaseUnits/stalker.png",
-                    cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    cost: { gold: 80, food: 0, metal: 25, mana: 10, oil: 0, crystal: 0, subdolak: 0 },
                     upgradeCosts: [
                         { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
                         { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
-                    ]
+                    ],
+                    researchCost: { gold: 22, food: 0, metal: 12, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    needsCheck: true
                 },
                 {
                     name: "Ghost",
                     img: "../images/units/BaseUnits/ghost.png",
-                    cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    cost: { gold: 70, food: 0, metal: 30, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
                     upgradeCosts: [
-                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
-                    ]
+                        { gold: 63, food: 0, metal: 20, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
+                    ],
+                    researchCost: { gold: 30, food: 0, metal: 15, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    needsCheck: false
                 },
                 {
                     name: "Sun Idol",
                     img: "../images/units/BaseUnits/sun-idol.png",
-                    cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    cost: { gold: 110, food: 0, metal: 25, mana: 30, oil: 0, crystal: 5, subdolak: 5 },
                     upgradeCosts: [
-                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
-                    ]
+                        { gold: 110, food: 0, metal: 15, mana: 30, oil: 0, crystal: 10, subdolak: 10 }
+                    ],
+                    researchCost: { gold: 60, food: 0, metal: 25, mana: 0, oil: 0, crystal: 0, subdolak: 5 },
+                    needsCheck: false
                 },
             ],
         },
         {
-            type: "magical",
+            type: "Magical",
             units: [
                 {
                     name: "High Templar",
                     img: "../images/units/BaseUnits/high-templar.png",
-                    cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    cost: { gold: 47, food: 0, metal: 0, mana: 47, oil: 0, crystal: 0, subdolak: 0 },
                     upgradeCosts: [
-                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
-                    ]
+                        { gold: 67, food: 0, metal: 0, mana: 67, oil: 0, crystal: 0, subdolak: 0 }
+                    ],
+                    researchCost: { gold: 27, food: 0, metal: 0, mana: 18, oil: 0, crystal: 0, subdolak: 0 },
+                    needsCheck: false
                 },
                 {
                     name: "Snow Queen",
                     img: "../images/units/BaseUnits/snow-queen.png",
-                    cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    cost: { gold: 50, food: 0, metal: 0, mana: 65, oil: 0, crystal: 5, subdolak: 0 },
                     upgradeCosts: [
                         { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
-                    ]
+                    ],
+                    researchCost: { gold: 33, food: 0, metal: 0, mana: 27, oil: 0, crystal: 0, subdolak: 0 },
+                    needsCheck: true
                 },
                 {
                     name: "Arc",
@@ -130,53 +150,65 @@ export default function Builder() {
                     upgradeCosts: [
                         { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
                         { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
-                    ]
+                    ],
+                    researchCost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    needsCheck: true
                 },
                 {
                     name: "Conjurer",
                     img: "../images/units/BaseUnits/conjurer.png",
                     cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
                     upgradeCosts: [
-                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0, type: "Regular" },
-                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0, type: "Reza" }
-                    ]
+                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
+                    ],
+                    researchCost: { gold: 50, food: 0, metal: 0, mana: 40, oil: 0, crystal: 0, subdolak: 10 },
+                    needsCheck: true
                 },
             ],
         },
         {
-            type: "mechanical",
+            type: "Mechanical",
             units: [
                 {
                     name: "Berserker",
                     img: "../images/units/BaseUnits/berserker.png",
-                    cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    cost: { gold: 65, food: 0, metal: 6, mana: 0, oil: 6, crystal: 0, subdolak: 0 },
                     upgradeCosts: [
                         { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
-                    ]
+                    ],
+                    researchCost: { gold: 24, food: 0, metal: 6, mana: 0, oil: 8, crystal: 0, subdolak: 0 },
+                    needsCheck: true
                 },
                 {
                     name: "Butterfly",
                     img: "../images/units/BaseUnits/butterfly.png",
-                    cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    cost: { gold: 55, food: 0, metal: 3, mana: 24, oil: 5, crystal: 0, subdolak: 0 },
                     upgradeCosts: [
                         { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
-                    ]
+                    ],
+                    researchCost: { gold: 28, food: 0, metal: 8, mana: 0, oil: 12, crystal: 0, subdolak: 0 },
+                    needsCheck: true
                 },
                 {
                     name: "Battle tank",
                     img: "../images/units/BaseUnits/battletank.png",
-                    cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    cost: { gold: 70, food: 0, metal: 10, mana: 0, oil: 12, crystal: 0, subdolak: 0 },
                     upgradeCosts: [
-                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
-                    ]
+                        { gold: 82, food: 0, metal: 15, mana: 0, oil: 15, crystal: 0, subdolak: 0 }
+                    ],
+                    researchCost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    needsCheck: true
                 },
                 {
                     name: "Robotron",
                     img: "../images/units/BaseUnits/robotron.png",
-                    cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    cost: { gold: 148, food: 0, metal: 20, mana: 0, oil: 20, crystal: 5, subdolak: 5 },
                     upgradeCosts: [
-                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
-                    ]
+                        { gold: 176, food: 0, metal: 20, mana: 0, oil: 20, crystal: 5, subdolak: 5 }
+                    ],
+                    researchCost: { gold: 60, food: 0, metal: 16, mana: 0, oil: 20, crystal: 0, subdolak: 5 },
+                    needsCheck: false
                 },
             ],
         },
@@ -213,7 +245,7 @@ export default function Builder() {
                             alt={selectedBuilder.name}
                             className="w-20 rounded-md shadow-md mb-2"
                         />
-                        <Units builderId={selectedBuilder.id} />
+                        <BuilderUnits builderId={selectedBuilder.id} />
                     </div>
                 )}
 
@@ -227,7 +259,7 @@ export default function Builder() {
                                 <div className="grid gap-4">
                                     {unitGroup.units.map((unit) => (
                                         <div key={unit.name} className="">
-                                            <Unit name={unit.name} img={unit.img} />
+                                            <Unit name={unit.name} img={unit.img} cost={unit.cost} researchCost={unit.researchCost} upgradeCosts={unit.upgradeCosts} needsCheck={unit.needsCheck} />
                                         </div>
                                     ))}
                                 </div>
@@ -235,6 +267,7 @@ export default function Builder() {
                         ))}
                     </div>
                 </div>
+
             </div>
         </div>
     );
