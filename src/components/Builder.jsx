@@ -251,13 +251,13 @@ export default function Builder() {
                 {/* All base units */}
                 <div className="mt-4">
                     <h2 className="text-lg font-medium mb-2">Units:</h2>
-                    <div className="grid grid-cols-4 gap-4">
+                    <div className="grid grid-cols-4">
                         {baseUnits.map((unitGroup) => (
                             <div key={unitGroup.type}>
-                                <h3 className="text-md font-medium mb-2">{unitGroup.type}</h3>
-                                <div className="grid gap-4">
+                                <h3 className="text-md font-medium">{unitGroup.type}</h3>
+                                <div className="w-70 h-auto">
                                     {unitGroup.units.map((unit) => (
-                                        <div key={unit.name} className="">
+                                        <div key={unit.name} className="bg-white rounded-md shadow-md p-2">
                                             <Unit name={unit.name} img={unit.img} cost={unit.cost} researchCost={unit.researchCost} upgradeCosts={unit.upgradeCosts} needsCheck={unit.needsCheck} />
                                         </div>
                                     ))}
@@ -266,7 +266,6 @@ export default function Builder() {
                         ))}
                     </div>
                 </div>
-
             </div>
         </div>
     );
