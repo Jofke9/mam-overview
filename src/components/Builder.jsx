@@ -214,7 +214,6 @@ export default function Builder() {
         },
     ];
 
-
     const handleBuilderChange = (event) => {
         setSelectedBuilder(builders.find((builder) => builder.id === parseInt(event.target.value)));
     };
