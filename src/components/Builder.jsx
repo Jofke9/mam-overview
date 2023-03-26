@@ -37,10 +37,10 @@ export default function Builder() {
                     img: "../images/units/BaseUnits/beholder.png",
                     cost: { gold: 44, food: 9, metal: 0, mana: 5, oil: 0, crystal: 0, subdolak: 0 },
                     upgradeCosts: [
-                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
+                        { gold: 63, food: 20, metal: 0, mana: 15, oil: 0, crystal: 0, subdolak: 0 }
                     ],
                     researchCost: { gold: 12, food: 6, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
-                    needsCheck: true
+                    needsCheck: false
                 },
                 {
                     name: "Rexxar",
@@ -138,10 +138,10 @@ export default function Builder() {
                     img: "../images/units/BaseUnits/snow-queen.png",
                     cost: { gold: 50, food: 0, metal: 0, mana: 65, oil: 0, crystal: 5, subdolak: 0 },
                     upgradeCosts: [
-                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
+                        { gold: 50, food: 0, metal: 0, mana: 65, oil: 0, crystal: 10, subdolak: 0 }
                     ],
                     researchCost: { gold: 33, food: 0, metal: 0, mana: 27, oil: 0, crystal: 0, subdolak: 0 },
-                    needsCheck: true
+                    needsCheck: false
                 },
                 {
                     name: "Arc",
@@ -157,13 +157,13 @@ export default function Builder() {
                 {
                     name: "Conjurer",
                     img: "../images/units/BaseUnits/conjurer.png",
-                    cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    cost: { gold: 60, food: 0, metal: 0, mana: 60, oil: 0, crystal: 0, subdolak: 4 },
                     upgradeCosts: [
-                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
-                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
+                        { gold: 100, food: 0, metal: 0, mana: 110, oil: 0, crystal: 0, subdolak: 10 },
+                        { gold: 115, food: 0, metal: 0, mana: 110, oil: 0, crystal: 0, subdolak: 8 }
                     ],
                     researchCost: { gold: 50, food: 0, metal: 0, mana: 40, oil: 0, crystal: 0, subdolak: 10 },
-                    needsCheck: true
+                    needsCheck: false
                 },
             ],
         },
