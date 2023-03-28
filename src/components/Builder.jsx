@@ -251,7 +251,7 @@ export default function Builder() {
                 {/* All base units */}
                 <div className="mt-4">
                     <h2 className="text-lg font-medium mb-2">Units:</h2>
-                    <div className="grid grid-cols-4">
+                    <div className="grid min-[950px]:grid-cols-4 sm:grid-cols-2 grid-cols-1">
                         {baseUnits.map((unitGroup) => (
                             <div key={unitGroup.type}>
                                 <h3 className="text-md font-medium">{unitGroup.type}</h3>
