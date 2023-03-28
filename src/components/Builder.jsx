@@ -146,13 +146,13 @@ export default function Builder() {
                 {
                     name: "Arc",
                     img: "../images/units/BaseUnits/arc.png",
-                    cost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
+                    cost: { gold: 64, food: 0, metal: 0, mana: 65, oil: 0, crystal: 5, subdolak: 0 },
                     upgradeCosts: [
-                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
-                        { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 }
+                        { gold: 67, food: 0, metal: 0, mana: 60, oil: 0, crystal: 10, subdolak: 0 },
+                        { gold: 75, food: 0, metal: 0, mana: 45, oil: 0, crystal: 10, subdolak: 0 }
                     ],
-                    researchCost: { gold: 0, food: 0, metal: 0, mana: 0, oil: 0, crystal: 0, subdolak: 0 },
-                    needsCheck: true
+                    researchCost: { gold: 40, food: 0, metal: 0, mana: 35, oil: 0, crystal: 0, subdolak: 0 },
+                    needsCheck: false
                 },
                 {
                     name: "Conjurer",
