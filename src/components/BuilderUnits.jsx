@@ -24,7 +24,7 @@ export default function BuilderUnits({ builderId }) {
 
     return (
         <div className="mt-4">
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid sm:grid-cols-3 grid-cols-1 gap-4">
                 {unitsForBuilder?.map((unit, index) => (
                     <div key={index} className="w-full">
                         <Unit name={unit.name} img={unit.img} cost={unit.cost} researchCost={unit.researchCost} upgradeCosts={unit.upgradeCosts} needsCheck={unit.needsCheck} />

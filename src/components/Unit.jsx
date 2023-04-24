@@ -3,6 +3,7 @@ import isEqual from 'lodash/isEqual';
 
 
 export default function Unit({ name, img, cost, researchCost, upgradeCosts }) {
+    let emptyComp = JSON.parse('{}');
 
     function checkNeedsCheck(_cost, _upgradeCosts, _researchCost) {
         let comparison = JSON.parse('{ "gold": 0, "food": 0, "metal": 0, "mana": 0, "oil": 0, "crystal": 0, "subdolak": 0 }');
@@ -30,27 +31,29 @@ export default function Unit({ name, img, cost, researchCost, upgradeCosts }) {
                 alt={name}
                 className="w-16 h-auto mb-4 rounded-md shadow-md"
             />
-            <div className="items-center justify-center mb-4">
-                <p className="text-gray-700 font-medium mr-2">Research:</p>
-                <div className='flex'>
-                    {Object.entries(researchCost).map(([resource, amount]) => {
-                        if (amount !== 0) {
-                            return (
-                                <div key={resource} className="mr-2 flex items-center">
-                                    <img
-                                        src={`../images/resources/${resource}.png`}
-                                        alt={`${resource}`}
-                                        className="w-5 h-auto mr-1"
-                                    />
-                                    <span className="text-sm font-medium mr-4">{amount}</span>
-                                </div>
-                            );
-                        } else {
-                            return null;
-                        }
-                    })}
+            {!isEqual(researchCost, emptyComp) && (
+                <div className="items-center justify-center mb-4">
+                    <p className="text-gray-700 font-medium mr-2">Research:</p>
+                    <div className='flex'>
+                        {Object.entries(researchCost).map(([resource, amount]) => {
+                            if (amount !== 0) {
+                                return (
+                                    <div key={resource} className="mr-2 flex items-center">
+                                        <img
+                                            src={`../images/resources/${resource}.png`}
+                                            alt={`${resource}`}
+                                            className="w-5 h-auto mr-1"
+                                        />
+                                        <span className="text-sm font-medium mr-4">{amount}</span>
+                                    </div>
+                                );
+                            } else {
+                                return null;
+                            }
+                        })}
+                    </div>
                 </div>
-            </div>
+            )}
             <div className="items-center justify-center mb-4">
                 <p className="text-gray-700 font-medium mr-2">Build:</p>
                 <div className='flex'>

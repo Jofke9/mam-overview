@@ -19,6 +19,16 @@
       "id": 4,
       "name": "Melee builder",
       "img": "../images/builders/melee.png"
+    },
+    {
+      "id": 5,
+      "name": "Mechanical builder",
+      "img": "../images/builders/mechanical.png"
+    },
+    {
+      "id": 6,
+      "name": "Necromancer builder",
+      "img": "../images/builders/necromancer.png"
     }
   ],
   "builderUnits": [
@@ -354,6 +364,184 @@
               "oil": 0,
               "crystal": 0,
               "subdolak": 0
+            }
+          ],
+          "researchCost": {}
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "units": [
+        {
+          "name": "Billy",
+          "img": "../images/units/BuilderUnits/billy.png",
+          "cost": {
+            "gold": 27,
+            "food": 0,
+            "metal": 0,
+            "mana": 0,
+            "oil": 2,
+            "crystal": 0,
+            "subdolak": 0
+          },
+          "upgradeCosts": [
+            {
+              "gold": 51,
+              "food": 0,
+              "metal": 0,
+              "mana": 0,
+              "oil": 6,
+              "crystal": 0,
+              "subdolak": 0
+            },
+            {
+              "gold": 53,
+              "food": 0,
+              "metal": 6,
+              "mana": 0,
+              "oil": 0,
+              "crystal": 0,
+              "subdolak": 0
+            }
+          ],
+          "researchCost": {}
+        },
+        {
+          "name": "Spider",
+          "img": "../images/units/BuilderUnits/spider.png",
+          "cost": {
+            "gold": 55,
+            "food": 0,
+            "metal": 1,
+            "mana": 0,
+            "oil": 5,
+            "crystal": 0,
+            "subdolak": 0
+          },
+          "upgradeCosts": [
+            {
+              "gold": 60,
+              "food": 0,
+              "metal": 5,
+              "mana": 5,
+              "oil": 6,
+              "crystal": 0,
+              "subdolak": 0
+            },
+            {
+              "gold": 56,
+              "food": 0,
+              "metal": 2,
+              "mana": 8,
+              "oil": 6,
+              "crystal": 3,
+              "subdolak": 0
+            }
+          ],
+          "researchCost": {}
+        },
+        {
+          "name": "Nappy destroyer",
+          "img": "../images/units/BuilderUnits/nappy_destroyer.png",
+          "cost": {
+            "gold": 89,
+            "food": 0,
+            "metal": 8,
+            "mana": 0,
+            "oil": 12,
+            "crystal": 0,
+            "subdolak": 0
+          },
+          "upgradeCosts": [
+            {
+              "gold": 210,
+              "food": 0,
+              "metal": 10,
+              "mana": 0,
+              "oil": 16,
+              "crystal": 0,
+              "subdolak": 0
+            }
+          ],
+          "researchCost": {}
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "units": [
+        {
+          "name": "Flesh beast",
+          "img": "../images/units/BuilderUnits/flesh_beast.png",
+          "cost": {
+            "gold": 36,
+            "food": 2,
+            "metal": 0,
+            "mana": 0,
+            "oil": 0,
+            "crystal": 0,
+            "subdolak": 1
+          },
+          "upgradeCosts": [
+            {
+              "gold": 69,
+              "food": 7,
+              "metal": 0,
+              "mana": 0,
+              "oil": 0,
+              "crystal": 0,
+              "subdolak": 4
+            }
+          ],
+          "researchCost": {}
+        },
+        {
+          "name": "Skeletal serpent",
+          "img": "../images/units/BuilderUnits/skeletal_serpent.png",
+          "cost": {
+            "gold": 60,
+            "food": 0,
+            "metal": 0,
+            "mana": 0,
+            "oil": 0,
+            "crystal": 0,
+            "subdolak": 4
+          },
+          "upgradeCosts": [
+            {
+              "gold": 200,
+              "food": 0,
+              "metal": 0,
+              "mana": 0,
+              "oil": 0,
+              "crystal": 0,
+              "subdolak": 18
+            }
+          ],
+          "researchCost": {}
+        },
+        {
+          "name": "Graderstuds",
+          "img": "../images/units/BuilderUnits/graderstuds.png",
+          "cost": {
+            "gold": 133,
+            "food": 0,
+            "metal": 0,
+            "mana": 12,
+            "oil": 0,
+            "crystal": 0,
+            "subdolak": 12
+          },
+          "upgradeCosts": [
+            {
+              "gold": 140,
+              "food": 0,
+              "metal": 0,
+              "mana": 14,
+              "oil": 0,
+              "crystal": 0,
+              "subdolak": 12
             }
           ],
           "researchCost": {}
