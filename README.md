@@ -1,17 +1,21 @@
 # This is an overview in react of all Mines and Magic units for the Starcraft 2 version of the game made by Zolden.
 
-Right now, the rewards builders' troops haven't been added yet, only the base builders and the researchable units have.
+Right now, the rewards builder's troops haven't been added yet, only the base builders and the researchable units have.
 
 Personally, I found this overview to be very helpful for me. I always have it open on my second monitor when playing.
 I believe it is definitely helpful when deciding what tree you'll research.
 It could help other newer players and maybe more experienced players as well.
 
 Now we'll talk about how to set this overview up locally.
-It takes less than 5 minutes.
+It takes less than 5 minutes. If you don't want to do this, these are the researchable units prices as they are on the site:
 
-This is just the source files to a React project, so to run this you'll need to run 3 commands. You need also Node.js installed on your computer.
-This can be done here: https://nodejs.org/en/download/
+![image](https://user-images.githubusercontent.com/128925439/234029413-67e748ea-2735-4fb5-a9f6-c83b829cc1b3.png)
+![image](https://user-images.githubusercontent.com/128925439/234029687-115d6d93-3ef8-4120-a372-b3e496ad9ed2.png)
 
+If you do want to take the time to do this, here's how.
+The very first thing to do is clone or download this directory and unzip it.
+These are just the source files to a React project, so to run this you'll need to run 3 commands. You also need Node.js installed on your computer.
+This can be done [here](https://nodejs.org/en/download/).
 After that you'll need to run the first command in the correct directory.
 I will explain how to for Windows pc's, I'm not sure how to do it on Mac/Linux/...
 
@@ -52,6 +56,7 @@ I personally have a .bat (batch) script file on my Windows desktop that looks li
 I would highly recommend doing the same thing because otherwise it's quite annoying to use the overview since it's not deployed on a public domain.
 I click the batch file (run it) everytime I start playing SC2 Mines and Magic and it automatically opens the overview in the browser for me. If the tabs open in different cmd windows instead of one window with 2 tabs. Right-click the top of the cmd and go to settings and change the new instance behaviour to attach to most recently used window as seen in this image: ![Schermafbeelding 2023-04-24 162340](https://user-images.githubusercontent.com/128925439/234026539-14c88513-5fd9-41f8-b68f-599f3b82fe25.png)
 
-If you have any questions/suggestions, contact me via the Mines and Magic discord: https://discord.gg/qftSmBh9ex my username on there is Jofke.
+If you have any questions/suggestions/bugs, contact me via the Mines and Magic [discord](https://discord.gg/qftSmBh9ex). My username on there is Jofke.
+Please note that I am still a student and the code could definitely use improvements or can probably be coded more efficiently.
 
 
