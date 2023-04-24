@@ -13,7 +13,7 @@ It takes less than 5 minutes. If you don't want to do this, these are the resear
 ![image](https://user-images.githubusercontent.com/128925439/234029687-115d6d93-3ef8-4120-a372-b3e496ad9ed2.png)
 
 If you do want to take the time to do this, here's how.
-The very first thing to do is download this directory and unzip it.
+The very first thing to do is clone or download this directory and unzip it.
 These are just the source files to a React project, so to run this you'll need to run 3 commands. You also need Node.js installed on your computer.
 This can be done [here](https://nodejs.org/en/download/).
 After that you'll need to run the first command in the correct directory.
