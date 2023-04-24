@@ -15,7 +15,7 @@ It takes less than 5 minutes. If you don't want to do this, these are the base u
 If you do want to take the time to do this, here's how.
 The very first thing to do is dowload this directory and unzip it.
 These are just the source files to a React project, so to run this you'll need to run 3 commands. You also need Node.js installed on your computer.
-This can be done [link](https://nodejs.org/en/download/){target="_blank"}
+This can be done [here](https://nodejs.org/en/download/).
 After that you'll need to run the first command in the correct directory.
 I will explain how to for Windows pc's, I'm not sure how to do it on Mac/Linux/...
 
