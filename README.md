@@ -45,7 +45,7 @@ After running these commands your browser should open the overview.
 I personally have a .bat (batch) script file on my Windows desktop that looks like this:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cd C:\[path to where I have the file]\mam-overview
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;start "" cmd /c "start npm start & start npm run server"
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;start "" cmd /c "start npm start & start npm run server"
  
 I would highly recommend doing the same thing because otherwise it's quite annoying to use the overview since it's not deployed on a public domain.
 I click the batch file (run it) everytime I start playing SC2 Mines and Magic and it automatically opens the overview in the browser for me.
