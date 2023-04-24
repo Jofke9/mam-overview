@@ -57,5 +57,6 @@ I would highly recommend doing the same thing because otherwise it's quite annoy
 I click the batch file (run it) everytime I start playing SC2 Mines and Magic and it automatically opens the overview in the browser for me. If the tabs open in different cmd windows instead of one window with 2 tabs. Right-click the top of the cmd and go to settings and change the new instance behaviour to attach to most recently used window as seen in this image: ![Schermafbeelding 2023-04-24 162340](https://user-images.githubusercontent.com/128925439/234026539-14c88513-5fd9-41f8-b68f-599f3b82fe25.png)
 
 If you have any questions/suggestions/bugs, contact me via the Mines and Magic [discord](https://discord.gg/qftSmBh9ex). My username on there is Jofke.
+Please note that I am still a student and the code could definitely use improvements or can probably be coded more efficiently.
 
 
