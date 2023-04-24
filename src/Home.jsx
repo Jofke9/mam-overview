@@ -15,7 +15,7 @@ export default function Home() {
 
     useEffect(() => {
         function handleKeyPress(event) {
-            if (event.key == 't' || event.key == 'T') {
+            if (event.key === 't' || event.key === 'T') {
                 setIsCalculating(!isCalculating);
             }
         }
@@ -25,7 +25,7 @@ export default function Home() {
         return () => {
             document.removeEventListener('keydown', handleKeyPress);
         };
-    }, [isCalculating]);
+    }, [isCalculating, setIsCalculating]);
 
     let emptyComp = {
         "gold": 0,

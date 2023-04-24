@@ -17,7 +17,7 @@ export default function Overlay(props) {
         return () => {
             document.removeEventListener('keydown', handleKeyPress);
         };
-    }, []);
+    }, [resetCost]);
 
     return (
         <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 w-11/12 lg:w-3/4 bg-blue-200 flex flex-row items-center justify-between border border-blue-500 rounded-md p-2 mb-10">
@@ -48,6 +48,7 @@ export default function Overlay(props) {
                             </div>
                         );
                     }
+                    else return null
                 })}
             </div>
             <button className="bg-blue-800 hover:bg-blue-700 text-white font-bold py-2 px-5 rounded flex justify-between items-center" onClick={resetCost}>
