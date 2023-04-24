@@ -7,13 +7,13 @@ I believe it is definitely helpful when deciding what tree you'll research.
 It could help other newer players and maybe more experienced players as well.
 
 Now we'll talk about how to set this overview up locally.
-It takes less than 5 minutes. If you don't want to do this, these are the base units prices as they are on the site.
+It takes less than 5 minutes. If you don't want to do this, these are the base units prices as they are on the site:
 
 ![image](https://user-images.githubusercontent.com/128925439/234029413-67e748ea-2735-4fb5-a9f6-c83b829cc1b3.png)
 ![image](https://user-images.githubusercontent.com/128925439/234029687-115d6d93-3ef8-4120-a372-b3e496ad9ed2.png)
 
 If you do want to take the time to do this, here's how.
-The very first thing to do is dowload this directory and unzip it.
+The very first thing to do is download this directory and unzip it.
 These are just the source files to a React project, so to run this you'll need to run 3 commands. You also need Node.js installed on your computer.
 This can be done [here](https://nodejs.org/en/download/).
 After that you'll need to run the first command in the correct directory.
