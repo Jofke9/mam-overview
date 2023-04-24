@@ -1,9 +1,28 @@
 import React from 'react';
+import isEqual from 'lodash/isEqual';
 
-export default function Unit({ name, img, cost, researchCost, upgradeCosts, needsCheck }) {
+
+export default function Unit({ name, img, cost, researchCost, upgradeCosts }) {
+
+    function checkNeedsCheck(_cost, _upgradeCosts, _researchCost) {
+        let comparison = JSON.parse('{ "gold": 0, "food": 0, "metal": 0, "mana": 0, "oil": 0, "crystal": 0, "subdolak": 0 }');
+        if (isEqual(_cost, comparison) || isEqual(_researchCost, comparison)) {
+            console.log(_cost + " or " + _researchCost + " is the same as " + comparison);
+            return true;
+        }
+        for (let i = 0; i < _upgradeCosts.length; i++) {
+
+            if (isEqual(_upgradeCosts[i], comparison)) {
+                console.log(_upgradeCosts[i] + " is the same as " + comparison);
+                return true;
+            }
+        }
+        return false;
+    }
+
     return (
         <div className="flex flex-col items-center py-4 px-6 bg-white rounded-lg shadow-lg">
-            <p className={`text-lg font-medium mb-4 ${needsCheck ? 'text-red-500' : ''}`}>
+            <p className={`text-lg font-medium mb-4 ${checkNeedsCheck(cost, upgradeCosts, researchCost) ? 'text-red-500' : ''}`}>
                 {name}
             </p>
             <img
