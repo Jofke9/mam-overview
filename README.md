@@ -1,6 +1,7 @@
 # This is an overview in react of all Mines and Magic units for the Starcraft 2 version of the game made by Zolden.
 
-Right now, the rewards builder's troops haven't been added yet, only the base builders and the researchable units have.
+Right now, not all of the rewards builder's troops haven't been added yet, I still need to add crystal and rogue.
+I recently added a togglable calculator function to the site so you can calculate what researching/placing your units will cost. 
 
 Personally, I found this overview to be very helpful for me. I always have it open on my second monitor when playing.
 I believe it is definitely helpful when deciding what tree you'll research.
