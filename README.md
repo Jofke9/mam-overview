@@ -7,7 +7,7 @@ I believe it is definitely helpful when deciding what tree you'll research.
 It could help other newer players and maybe more experienced players as well.
 
 Now we'll talk about how to set this overview up locally.
-It takes less than 5 minutes. If you don't want to do this, these are the base units prices as they are on the site:
+It takes less than 5 minutes. If you don't want to do this, these are the researchable units prices as they are on the site:
 
 ![image](https://user-images.githubusercontent.com/128925439/234029413-67e748ea-2735-4fb5-a9f6-c83b829cc1b3.png)
 ![image](https://user-images.githubusercontent.com/128925439/234029687-115d6d93-3ef8-4120-a372-b3e496ad9ed2.png)
