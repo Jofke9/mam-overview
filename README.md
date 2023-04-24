@@ -1,5 +1,7 @@
 # This is an overview in react of all Mines and Magic units for the Starcraft 2 version of the game made by Zolden.
 
+[go](http://stackoverflow.com){:target="_blank" rel="noopener"}
+
 Right now, the rewards builders' troops haven't been added yet, only the base builders and the researchable units have.
 
 Personally, I found this overview to be very helpful for me. I always have it open on my second monitor when playing.
