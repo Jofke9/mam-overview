@@ -15,7 +15,7 @@ It takes less than 5 minutes. If you don't want to do this, these are the base u
 If you do want to take the time to do this, here's how.
 The very first thing to do is dowload this directory and unzip it.
 These are just the source files to a React project, so to run this you'll need to run 3 commands. You also need Node.js installed on your computer.
-This can be done here: https://nodejs.org/en/download/
+This can be done <a href="https://nodejs.org/en/download/" target="_blank">here.</a>
 
 After that you'll need to run the first command in the correct directory.
 I will explain how to for Windows pc's, I'm not sure how to do it on Mac/Linux/...
@@ -57,6 +57,6 @@ I personally have a .bat (batch) script file on my Windows desktop that looks li
 I would highly recommend doing the same thing because otherwise it's quite annoying to use the overview since it's not deployed on a public domain.
 I click the batch file (run it) everytime I start playing SC2 Mines and Magic and it automatically opens the overview in the browser for me. If the tabs open in different cmd windows instead of one window with 2 tabs. Right-click the top of the cmd and go to settings and change the new instance behaviour to attach to most recently used window as seen in this image: ![Schermafbeelding 2023-04-24 162340](https://user-images.githubusercontent.com/128925439/234026539-14c88513-5fd9-41f8-b68f-599f3b82fe25.png)
 
-If you have any questions/suggestions/bugs, contact me via the Mines and Magic discord: https://discord.gg/qftSmBh9ex my username on there is Jofke.
+If you have any questions/suggestions/bugs, contact me via the Mines and Magic <a href="https://discord.gg/qftSmBh9ex" target="_blank">discord.</a> My username on there is Jofke.
 
 
