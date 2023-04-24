@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import isEqual from 'lodash/isEqual';
+import GlobalContext from './../GlobalContext';
+import AddButton from './AddButton';
 
 
 export default function Unit({ name, img, cost, researchCost, upgradeCosts }) {
+
     let emptyComp = JSON.parse('{}');
+    const { isCalculating, setIsCalculating, totalCost, setTotalCost } = useContext(GlobalContext);
 
     function checkNeedsCheck(_cost, _upgradeCosts, _researchCost) {
         let comparison = JSON.parse('{ "gold": 0, "food": 0, "metal": 0, "mana": 0, "oil": 0, "crystal": 0, "subdolak": 0 }');
@@ -33,7 +37,8 @@ export default function Unit({ name, img, cost, researchCost, upgradeCosts }) {
             />
             {!isEqual(researchCost, emptyComp) && (
                 <div className="items-center justify-center mb-4">
-                    <p className="text-gray-700 font-medium mr-2">Research:</p>
+                    <p className="flex text-gray-700 font-medium mr-2">Research:
+                        {isCalculating && <AddButton cost={researchCost} />}</p>
                     <div className='flex'>
                         {Object.entries(researchCost).map(([resource, amount]) => {
                             if (amount !== 0) {
@@ -55,7 +60,8 @@ export default function Unit({ name, img, cost, researchCost, upgradeCosts }) {
                 </div>
             )}
             <div className="items-center justify-center mb-4">
-                <p className="text-gray-700 font-medium mr-2">Build:</p>
+                <p className="flex text-gray-700 font-medium mr-2">Build:
+                    {isCalculating && <AddButton cost={cost} />}</p>
                 <div className='flex'>
                     {Object.entries(cost).map(([resource, amount]) => {
                         if (amount !== 0) {
@@ -77,8 +83,9 @@ export default function Unit({ name, img, cost, researchCost, upgradeCosts }) {
             </div>
             {upgradeCosts.map((upgradeCost, index) => (
                 <div key={index} className="items-center justify-center mb-4">
-                    <p className="text-gray-700 font-medium mr-2">
+                    <p className="flex text-gray-700 font-medium mr-2">
                         {index === 0 ? 'Upgrade:' : `Upgrade ${index + 1}:`}
+                        {isCalculating && (<AddButton cost={upgradeCosts[index]} />)}
                     </p>
                     <div className='flex'>
                         {Object.entries(upgradeCost).map(([resource, amount]) => {
