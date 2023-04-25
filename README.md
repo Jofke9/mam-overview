@@ -29,7 +29,9 @@ After loading you need to navigate to the correct folder using the cd command. F
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cd C:/Users/Jofke/Documents/mam-overview
 
-Replace everything after cd with the correct path to where you saved the folder.<br>
+Replace everything after cd with the correct path to where you saved the folder.<br><br>
+You should be in the folder in which you see something similar to this, but without the node_modules folder <br><br>![Schermafbeelding 2023-04-25 134509](https://user-images.githubusercontent.com/128925439/234266857-b9756406-c77d-47d9-8b14-a89c6f5b2783.png)
+<br>
 After that run this command:  
   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;npm install
