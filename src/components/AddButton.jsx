@@ -3,7 +3,7 @@ import GlobalContext from './../GlobalContext';
 
 export default function AddButton(cost) {
 
-    const { isCalculating, setIsCalculating, totalCost, setTotalCost } = useContext(GlobalContext);
+    const { totalCost, setTotalCost } = useContext(GlobalContext);
 
     const addToTotalCost = () => {
         let gold = totalCost.gold + cost.cost.gold
