@@ -29,6 +29,16 @@
       "id": 6,
       "name": "Necromancer builder",
       "img": "../images/builders/necromancer.png"
+    },
+    {
+      "id": 7,
+      "name": "Crystal builder",
+      "img": "../images/builders/crystal.png"
+    },
+    {
+      "id": 8,
+      "name": "Rogue builder",
+      "img": "../images/builders/rogue.png"
     }
   ],
   "builderUnits": [
@@ -542,6 +552,211 @@
               "oil": 0,
               "crystal": 0,
               "subdolak": 12
+            }
+          ],
+          "researchCost": {}
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "units": [
+        {
+          "name": "Star",
+          "img": "../images/units/BuilderUnits/star.png",
+          "cost": {
+            "gold": 40,
+            "food": 0,
+            "metal": 0,
+            "mana": 0,
+            "oil": 0,
+            "crystal": 3,
+            "subdolak": 0
+          },
+          "upgradeCosts": [
+            {
+              "gold": 105,
+              "food": 0,
+              "metal": 0,
+              "mana": 0,
+              "oil": 0,
+              "crystal": 15,
+              "subdolak": 0
+            },
+            {
+              "gold": 73,
+              "food": 0,
+              "metal": 0,
+              "mana": 0,
+              "oil": 0,
+              "crystal": 6,
+              "subdolak": 0
+            },
+            {
+              "gold": 74,
+              "food": 0,
+              "metal": 5,
+              "mana": 0,
+              "oil": 0,
+              "crystal": 5,
+              "subdolak": 0
+            }
+          ],
+          "researchCost": {}
+        },
+        {
+          "name": "Tower",
+          "img": "../images/units/BuilderUnits/tower.png",
+          "cost": {
+            "gold": 70,
+            "food": 0,
+            "metal": 0,
+            "mana": 0,
+            "oil": 0,
+            "crystal": 6,
+            "subdolak": 0
+          },
+          "upgradeCosts": [
+            {
+              "gold": 120,
+              "food": 0,
+              "metal": 0,
+              "mana": 8,
+              "oil": 0,
+              "crystal": 8,
+              "subdolak": 0
+            }
+          ],
+          "researchCost": {}
+        },
+        {
+          "name": "Golem",
+          "img": "../images/units/BuilderUnits/golem.png",
+          "cost": {
+            "gold": 121,
+            "food": 0,
+            "metal": 0,
+            "mana": 10,
+            "oil": 0,
+            "crystal": 10,
+            "subdolak": 0
+          },
+          "upgradeCosts": [
+            {
+              "gold": 152,
+              "food": 0,
+              "metal": 0,
+              "mana": 20,
+              "oil": 0,
+              "crystal": 20,
+              "subdolak": 0
+            }
+          ],
+          "researchCost": {}
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "units": [
+        {
+          "name": "Beetle",
+          "img": "../images/units/BuilderUnits/beetle.png",
+          "cost": {
+            "gold": 56,
+            "food": 2,
+            "metal": 0,
+            "mana": 0,
+            "oil": 0,
+            "crystal": 0,
+            "subdolak": 0
+          },
+          "upgradeCosts": [
+            {
+              "gold": 74,
+              "food": 10,
+              "metal": 8,
+              "mana": 0,
+              "oil": 0,
+              "crystal": 0,
+              "subdolak": 0
+            },
+            {
+              "gold": 86,
+              "food": 8,
+              "metal": 0,
+              "mana": 20,
+              "oil": 0,
+              "crystal": 0,
+              "subdolak": 0
+            }
+          ],
+          "researchCost": {}
+        },
+        {
+          "name": "Dranai mage",
+          "img": "../images/units/BuilderUnits/dranai_mage.png",
+          "cost": {
+            "gold": 36,
+            "food": 0,
+            "metal": 0,
+            "mana": 14,
+            "oil": 0,
+            "crystal": 0,
+            "subdolak": 0
+          },
+          "upgradeCosts": [
+            {
+              "gold": 104,
+              "food": 0,
+              "metal": 0,
+              "mana": 24,
+              "oil": 0,
+              "crystal": 0,
+              "subdolak": 0
+            },
+            {
+              "gold": 90,
+              "food": 9,
+              "metal": 0,
+              "mana": 18,
+              "oil": 0,
+              "crystal": 0,
+              "subdolak": 0
+            }
+          ],
+          "researchCost": {}
+        },
+        {
+          "name": "Spirit wolf",
+          "img": "../images/units/BuilderUnits/spirit_wolf.png",
+          "cost": {
+            "gold": 102,
+            "food": 0,
+            "metal": 8,
+            "mana": 16,
+            "oil": 0,
+            "crystal": 0,
+            "subdolak": 0
+          },
+          "upgradeCosts": [
+            {
+              "gold": 120,
+              "food": 0,
+              "metal": 14,
+              "mana": 20,
+              "oil": 0,
+              "crystal": 0,
+              "subdolak": 0
+            },
+            {
+              "gold": 195,
+              "food": 0,
+              "metal": 12,
+              "mana": 40,
+              "oil": 0,
+              "crystal": 0,
+              "subdolak": 0
             }
           ],
           "researchCost": {}
