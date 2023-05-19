@@ -97,7 +97,7 @@ export default function Builder(props) {
                     </div>
                 </div>
             </div>
-            <div className="bg-gray-100 p-4 rounded-lg shadow-md h-20vh"></div>
+            <div className="bg-gray-100 p-4 rounded-lg shadow-md h-1/5vh"></div>
         </div>
     );
 }
