@@ -17,8 +17,8 @@ export default function Unit({ name, img, cost, researchCost, upgradeCosts }) {
         }
         for (let i = 0; i < _upgradeCosts.length; i++) {
 
-            if (isEqual(_upgradeCosts[i], comparison)) {
-                console.log(_upgradeCosts[i] + " is the same as " + comparison);
+            if (isEqual(_upgradeCosts[i].price, comparison)) {
+                console.log(_upgradeCosts[i].price + " is the same as " + comparison);
                 return true;
             }
         }
@@ -84,11 +84,11 @@ export default function Unit({ name, img, cost, researchCost, upgradeCosts }) {
             {upgradeCosts.map((upgradeCost, index) => (
                 <div key={index} className="items-center justify-center mb-4">
                     <p className="flex text-gray-700 font-medium mr-2">
-                        {index === 0 ? 'Upgrade:' : `Upgrade ${index + 1}:`}
-                        {isCalculating && (<AddButton cost={upgradeCosts[index]} />)}
+                        {upgradeCost.name + ":"}
+                        {isCalculating && (<AddButton cost={upgradeCost.price} />)}
                     </p>
                     <div className='flex'>
-                        {Object.entries(upgradeCost).map(([resource, amount]) => {
+                        {Object.entries(upgradeCost.price).map(([resource, amount]) => {
                             if (amount !== 0) {
                                 return (
                                     <div key={resource} className="mr-2 flex items-center">

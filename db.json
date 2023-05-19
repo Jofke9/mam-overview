@@ -59,22 +59,28 @@
           },
           "upgradeCosts": [
             {
-              "gold": 80,
-              "food": 4,
-              "metal": 0,
-              "mana": 0,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 80,
+                "food": 4,
+                "metal": 0,
+                "mana": 0,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             },
             {
-              "gold": 106,
-              "food": 10,
-              "metal": 10,
-              "mana": 20,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Paladin",
+              "price": {
+                "gold": 106,
+                "food": 10,
+                "metal": 10,
+                "mana": 20,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -93,13 +99,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 86,
-              "food": 0,
-              "metal": 6,
-              "mana": 0,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 86,
+                "food": 0,
+                "metal": 6,
+                "mana": 0,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -118,13 +127,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 180,
-              "food": 0,
-              "metal": 0,
-              "mana": 28,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 180,
+                "food": 0,
+                "metal": 0,
+                "mana": 28,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -148,13 +160,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 60,
-              "food": 0,
-              "metal": 3,
-              "mana": 0,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 60,
+                "food": 0,
+                "metal": 3,
+                "mana": 0,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -173,13 +188,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 115,
-              "food": 0,
-              "metal": 8,
-              "mana": 0,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 115,
+                "food": 0,
+                "metal": 8,
+                "mana": 0,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -198,13 +216,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 115,
-              "food": 0,
-              "metal": 15,
-              "mana": 10,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 115,
+                "food": 0,
+                "metal": 15,
+                "mana": 10,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -228,13 +249,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 60,
-              "food": 0,
-              "metal": 0,
-              "mana": 16,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 60,
+                "food": 0,
+                "metal": 0,
+                "mana": 16,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -253,13 +277,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 150,
-              "food": 0,
-              "metal": 0,
-              "mana": 32,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 150,
+                "food": 0,
+                "metal": 0,
+                "mana": 32,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -278,13 +305,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 156,
-              "food": 0,
-              "metal": 0,
-              "mana": 56,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 156,
+                "food": 0,
+                "metal": 0,
+                "mana": 56,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -308,22 +338,28 @@
           },
           "upgradeCosts": [
             {
-              "gold": 39,
-              "food": 0,
-              "metal": 0,
-              "mana": 0,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 39,
+                "food": 0,
+                "metal": 0,
+                "mana": 0,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             },
             {
-              "gold": 56,
-              "food": 0,
-              "metal": 0,
-              "mana": 20,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Skeleton mage",
+              "price": {
+                "gold": 56,
+                "food": 0,
+                "metal": 0,
+                "mana": 20,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -342,13 +378,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 90,
-              "food": 8,
-              "metal": 0,
-              "mana": 0,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 90,
+                "food": 8,
+                "metal": 0,
+                "mana": 0,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -367,13 +406,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 136,
-              "food": 12,
-              "metal": 0,
-              "mana": 8,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 136,
+                "food": 12,
+                "metal": 0,
+                "mana": 8,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -397,22 +439,28 @@
           },
           "upgradeCosts": [
             {
-              "gold": 51,
-              "food": 0,
-              "metal": 0,
-              "mana": 0,
-              "oil": 6,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Bomb billy",
+              "price": {
+                "gold": 51,
+                "food": 0,
+                "metal": 0,
+                "mana": 0,
+                "oil": 6,
+                "crystal": 0,
+                "subdolak": 0
+              }
             },
             {
-              "gold": 53,
-              "food": 0,
-              "metal": 6,
-              "mana": 0,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Zippy",
+              "price": {
+                "gold": 53,
+                "food": 0,
+                "metal": 6,
+                "mana": 0,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -431,22 +479,28 @@
           },
           "upgradeCosts": [
             {
-              "gold": 60,
-              "food": 0,
-              "metal": 5,
-              "mana": 5,
-              "oil": 6,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Quetzal",
+              "price": {
+                "gold": 60,
+                "food": 0,
+                "metal": 5,
+                "mana": 5,
+                "oil": 6,
+                "crystal": 0,
+                "subdolak": 0
+              }
             },
             {
-              "gold": 56,
-              "food": 0,
-              "metal": 2,
-              "mana": 8,
-              "oil": 6,
-              "crystal": 3,
-              "subdolak": 0
+              "name": "Death sphere",
+              "price": {
+                "gold": 56,
+                "food": 0,
+                "metal": 2,
+                "mana": 8,
+                "oil": 6,
+                "crystal": 3,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -465,13 +519,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 210,
-              "food": 0,
-              "metal": 10,
-              "mana": 0,
-              "oil": 16,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Devastator",
+              "price": {
+                "gold": 210,
+                "food": 0,
+                "metal": 10,
+                "mana": 0,
+                "oil": 16,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -495,13 +552,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 69,
-              "food": 7,
-              "metal": 0,
-              "mana": 0,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 4
+              "name": "Upped",
+              "price": {
+                "gold": 69,
+                "food": 7,
+                "metal": 0,
+                "mana": 0,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 4
+              }
             }
           ],
           "researchCost": {}
@@ -520,13 +580,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 200,
-              "food": 0,
-              "metal": 0,
-              "mana": 0,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 18
+              "name": "Marrowgar",
+              "price": {
+                "gold": 200,
+                "food": 0,
+                "metal": 0,
+                "mana": 0,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 18
+              }
             }
           ],
           "researchCost": {}
@@ -545,13 +608,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 140,
-              "food": 0,
-              "metal": 0,
-              "mana": 14,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 12
+              "name": "Upped",
+              "price": {
+                "gold": 140,
+                "food": 0,
+                "metal": 0,
+                "mana": 14,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 12
+              }
             }
           ],
           "researchCost": {}
@@ -575,31 +641,40 @@
           },
           "upgradeCosts": [
             {
-              "gold": 105,
-              "food": 0,
-              "metal": 0,
-              "mana": 0,
-              "oil": 0,
-              "crystal": 15,
-              "subdolak": 0
+              "name": "Crystal turtle",
+              "price": {
+                "gold": 105,
+                "food": 0,
+                "metal": 0,
+                "mana": 0,
+                "oil": 0,
+                "crystal": 15,
+                "subdolak": 0
+              }
             },
             {
-              "gold": 73,
-              "food": 0,
-              "metal": 0,
-              "mana": 0,
-              "oil": 0,
-              "crystal": 6,
-              "subdolak": 0
+              "name": "Prism",
+              "price": {
+                "gold": 73,
+                "food": 0,
+                "metal": 0,
+                "mana": 0,
+                "oil": 0,
+                "crystal": 6,
+                "subdolak": 0
+              }
             },
             {
-              "gold": 74,
-              "food": 0,
-              "metal": 5,
-              "mana": 0,
-              "oil": 0,
-              "crystal": 5,
-              "subdolak": 0
+              "name": "Lens",
+              "price": {
+                "gold": 74,
+                "food": 0,
+                "metal": 5,
+                "mana": 0,
+                "oil": 0,
+                "crystal": 5,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -618,13 +693,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 120,
-              "food": 0,
-              "metal": 0,
-              "mana": 8,
-              "oil": 0,
-              "crystal": 8,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 120,
+                "food": 0,
+                "metal": 0,
+                "mana": 8,
+                "oil": 0,
+                "crystal": 8,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -643,13 +721,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 152,
-              "food": 0,
-              "metal": 0,
-              "mana": 20,
-              "oil": 0,
-              "crystal": 20,
-              "subdolak": 0
+              "name": "Crystal king",
+              "price": {
+                "gold": 152,
+                "food": 0,
+                "metal": 0,
+                "mana": 20,
+                "oil": 0,
+                "crystal": 20,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -673,22 +754,28 @@
           },
           "upgradeCosts": [
             {
-              "gold": 74,
-              "food": 10,
-              "metal": 8,
-              "mana": 0,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Scarab",
+              "price": {
+                "gold": 74,
+                "food": 10,
+                "metal": 8,
+                "mana": 0,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             },
             {
-              "gold": 86,
-              "food": 8,
-              "metal": 0,
-              "mana": 20,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Bug lord",
+              "price": {
+                "gold": 86,
+                "food": 8,
+                "metal": 0,
+                "mana": 20,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -707,22 +794,28 @@
           },
           "upgradeCosts": [
             {
-              "gold": 104,
-              "food": 0,
-              "metal": 0,
-              "mana": 24,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Dread lord",
+              "price": {
+                "gold": 104,
+                "food": 0,
+                "metal": 0,
+                "mana": 24,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             },
             {
-              "gold": 90,
-              "food": 9,
-              "metal": 0,
-              "mana": 18,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Synd the Warlock",
+              "price": {
+                "gold": 90,
+                "food": 9,
+                "metal": 0,
+                "mana": 18,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -741,22 +834,28 @@
           },
           "upgradeCosts": [
             {
-              "gold": 120,
-              "food": 0,
-              "metal": 14,
-              "mana": 20,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Demoness",
+              "price": {
+                "gold": 120,
+                "food": 0,
+                "metal": 14,
+                "mana": 20,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             },
             {
-              "gold": 195,
-              "food": 0,
-              "metal": 12,
-              "mana": 40,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Phoenix",
+              "price": {
+                "gold": 195,
+                "food": 0,
+                "metal": 12,
+                "mana": 40,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {}
@@ -782,13 +881,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 63,
-              "food": 20,
-              "metal": 0,
-              "mana": 15,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 63,
+                "food": 20,
+                "metal": 0,
+                "mana": 15,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {
@@ -815,13 +917,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 118,
-              "food": 30,
-              "metal": 0,
-              "mana": 0,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 118,
+                "food": 30,
+                "metal": 0,
+                "mana": 0,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {
@@ -848,13 +953,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 120,
-              "food": 24,
-              "metal": 0,
-              "mana": 20,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 120,
+                "food": 24,
+                "metal": 0,
+                "mana": 20,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {
@@ -881,13 +989,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 160,
-              "food": 50,
-              "metal": 0,
-              "mana": 40,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 10
+              "name": "Upped",
+              "price": {
+                "gold": 160,
+                "food": 50,
+                "metal": 0,
+                "mana": 40,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 10
+              }
             }
           ],
           "researchCost": {
@@ -919,13 +1030,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 48,
-              "food": 0,
-              "metal": 12,
-              "mana": 0,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Marauder",
+              "price": {
+                "gold": 48,
+                "food": 0,
+                "metal": 12,
+                "mana": 0,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {
@@ -952,13 +1066,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 93,
-              "food": 0,
-              "metal": 25,
-              "mana": 10,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Colossus",
+              "price": {
+                "gold": 93,
+                "food": 0,
+                "metal": 25,
+                "mana": 10,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {
@@ -985,13 +1102,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 63,
-              "food": 0,
-              "metal": 20,
-              "mana": 0,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Reaper",
+              "price": {
+                "gold": 63,
+                "food": 0,
+                "metal": 20,
+                "mana": 0,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {
@@ -1018,13 +1138,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 110,
-              "food": 0,
-              "metal": 15,
-              "mana": 30,
-              "oil": 0,
-              "crystal": 10,
-              "subdolak": 10
+              "name": "Upped",
+              "price": {
+                "gold": 110,
+                "food": 0,
+                "metal": 15,
+                "mana": 30,
+                "oil": 0,
+                "crystal": 10,
+                "subdolak": 10
+              }
             }
           ],
           "researchCost": {
@@ -1056,13 +1179,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 67,
-              "food": 0,
-              "metal": 0,
-              "mana": 67,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 67,
+                "food": 0,
+                "metal": 0,
+                "mana": 67,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {
@@ -1089,13 +1215,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 50,
-              "food": 0,
-              "metal": 0,
-              "mana": 65,
-              "oil": 0,
-              "crystal": 10,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 50,
+                "food": 0,
+                "metal": 0,
+                "mana": 65,
+                "oil": 0,
+                "crystal": 10,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {
@@ -1109,7 +1238,7 @@
           }
         },
         {
-          "name": "Arc",
+          "name": "Holy Arc",
           "img": "../images/units/BaseUnits/arc.png",
           "cost": {
             "gold": 64,
@@ -1122,22 +1251,28 @@
           },
           "upgradeCosts": [
             {
-              "gold": 67,
-              "food": 0,
-              "metal": 0,
-              "mana": 60,
-              "oil": 0,
-              "crystal": 10,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 67,
+                "food": 0,
+                "metal": 0,
+                "mana": 60,
+                "oil": 0,
+                "crystal": 10,
+                "subdolak": 0
+              }
             },
             {
-              "gold": 75,
-              "food": 0,
-              "metal": 0,
-              "mana": 45,
-              "oil": 0,
-              "crystal": 10,
-              "subdolak": 0
+              "name": "Upped 2",
+              "price": {
+                "gold": 75,
+                "food": 0,
+                "metal": 0,
+                "mana": 45,
+                "oil": 0,
+                "crystal": 10,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {
@@ -1164,22 +1299,28 @@
           },
           "upgradeCosts": [
             {
-              "gold": 100,
-              "food": 0,
-              "metal": 0,
-              "mana": 110,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 10
+              "name": "Upped",
+              "price": {
+                "gold": 100,
+                "food": 0,
+                "metal": 0,
+                "mana": 110,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 10
+              }
             },
             {
-              "gold": 115,
-              "food": 0,
-              "metal": 0,
-              "mana": 110,
-              "oil": 0,
-              "crystal": 0,
-              "subdolak": 8
+              "name": "Reza",
+              "price": {
+                "gold": 115,
+                "food": 0,
+                "metal": 0,
+                "mana": 110,
+                "oil": 0,
+                "crystal": 0,
+                "subdolak": 8
+              }
             }
           ],
           "researchCost": {
@@ -1211,13 +1352,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 105,
-              "food": 0,
-              "metal": 12,
-              "mana": 0,
-              "oil": 12,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 105,
+                "food": 0,
+                "metal": 12,
+                "mana": 0,
+                "oil": 12,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {
@@ -1244,13 +1388,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 66,
-              "food": 0,
-              "metal": 5,
-              "mana": 38,
-              "oil": 7,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 66,
+                "food": 0,
+                "metal": 5,
+                "mana": 38,
+                "oil": 7,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {
@@ -1264,7 +1411,7 @@
           }
         },
         {
-          "name": "Battle tank",
+          "name": "Battle Tank",
           "img": "../images/units/BaseUnits/battletank.png",
           "cost": {
             "gold": 70,
@@ -1277,13 +1424,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 82,
-              "food": 0,
-              "metal": 15,
-              "mana": 0,
-              "oil": 15,
-              "crystal": 0,
-              "subdolak": 0
+              "name": "Upped",
+              "price": {
+                "gold": 82,
+                "food": 0,
+                "metal": 15,
+                "mana": 0,
+                "oil": 15,
+                "crystal": 0,
+                "subdolak": 0
+              }
             }
           ],
           "researchCost": {
@@ -1310,13 +1460,16 @@
           },
           "upgradeCosts": [
             {
-              "gold": 176,
-              "food": 0,
-              "metal": 20,
-              "mana": 0,
-              "oil": 20,
-              "crystal": 5,
-              "subdolak": 5
+              "name": "Upped",
+              "price": {
+                "gold": 176,
+                "food": 0,
+                "metal": 20,
+                "mana": 0,
+                "oil": 20,
+                "crystal": 5,
+                "subdolak": 5
+              }
             }
           ],
           "researchCost": {
