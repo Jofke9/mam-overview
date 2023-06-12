@@ -11,7 +11,7 @@ Now we'll talk about how to set this overview up locally.
 It takes less than 5 minutes. If you don't want to do this, these are the researchable units prices as they are on the site:
 
 ![image](https://github.com/Jofke9/mam-overview/assets/128925439/011ce628-6082-4315-96be-394a0e92adf4)
-![image](https://github.com/Jofke9/mam-overview/assets/128925439/d1e5c0d3-312f-4eb8-8696-543a46c0e369)
+![image](https://github.com/Jofke9/mam-overview/assets/128925439/5440173b-421d-4e8b-92fa-631ef6738230)
 
 If you do want to take the time to do this, here's how.
 The very first thing to do is clone or download this directory and unzip it.
