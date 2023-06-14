@@ -1059,7 +1059,7 @@
             "gold": 80,
             "food": 0,
             "metal": 20,
-            "mana": 10,
+            "mana": 5,
             "oil": 0,
             "crystal": 0,
             "subdolak": 0
@@ -1217,10 +1217,10 @@
             {
               "name": "Upped",
               "price": {
-                "gold": 50,
+                "gold": 70,
                 "food": 0,
                 "metal": 0,
-                "mana": 65,
+                "mana": 75,
                 "oil": 0,
                 "crystal": 10,
                 "subdolak": 0
