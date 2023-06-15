@@ -1056,7 +1056,7 @@
           "name": "Stalker",
           "img": "../images/units/BaseUnits/stalker.png",
           "cost": {
-            "gold": 80,
+            "gold": 81,
             "food": 0,
             "metal": 20,
             "mana": 5,
